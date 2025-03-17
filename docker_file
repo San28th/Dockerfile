@@ -1,0 +1,7 @@
+FROM Ubuntu:latest
+
+RUN task.html /var/www/html/New_task11.html
+
+EXPOSE 80
+
+CMD apachectl -D FOREGROUND
